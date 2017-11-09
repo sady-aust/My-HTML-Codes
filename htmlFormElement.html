@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+
+  </head>
+  <body>
+
+    <form  action="index.html" method="post" oninput="result.value = parseInt(a.value)+parseInt(b.value)">
+      <h3>The Input Element</h3>
+      <input type="text" name="name" value="sady">
+      <h3>select element</h3>
+
+    <select  name="select">
+      <option value="cse">CSE</option>
+      <option value="eee" selected>EEE</option>
+      <option value="ce">CE</option>
+    </select><br/><br/>
+
+    <select  name="selection" size="3" multiple>
+      <option value="cse">CSE</option>
+      <option value="eee">eee</option>
+      <option value="ce">CE</option>
+      <option value="me">Me</option>
+
+    </select>
+
+    <textarea name="textARea" rows="8" cols="80"></textarea>
+
+    <button type="button" name="button" onclick="alert('Helo World!')">Submit</button>
+
+  <br/>
+  0
+  <input type="range" name="a" value="50">100+<input type="number" name="b" value="50"> =
+  <output name="result" for="a b"></output>
+    </form>
+    
+  </body>
+</html>

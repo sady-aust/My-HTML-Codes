@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head></head>
+<body>
+    <p id="demo"></p>
+  <script>
+  document.getElementById("demo").innerHTML = "Hello JavaScript!";
+  </script>
+<h3>JavaScript can change the content of html element</h3>
+<p id="demo1">This is Just a Sentance</p>
+<button type="button" onclick="myFunc()">Click Me</button>
+<button type="button" onclick="changeColor()">Change Coler</button>
+<button type="button" onclick="changeFont()">changeFont</button>
+<button type="button" onclick="changeBackground()">Change Background</button>
+
+<script>
+function myFunc(){
+  document.getElementById("demo1").innerHTML="Button is Clicked";
+}
+
+function changeColor() {
+  document.getElementById("demo1").style.color = "red";
+
+}
+
+function changeFont(){
+  document.getElementById("demo1").style.fontSize = "50px";
+}
+
+function changeBackground(){
+document.getElementById("demo1").style.backgroundColor = "red";
+}
+</script>
+
+<noscript>Sorry Your Browser dont suppor JavaScript</noscript>
+
+</body>
+</html>

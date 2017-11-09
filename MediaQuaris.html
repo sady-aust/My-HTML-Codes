@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta name="viewpoirt" content="width=device-width, initial-scale = 1.0">
+  <style >
+    * {
+      box-sizing: border-box;
+    }
+
+    .left{
+      background-color: Green;
+      padding: 20px;
+
+      width: 20%;
+      float: left;
+    }
+
+    .main{
+      background-color: Red;
+      padding: 20px;
+
+      float: left;
+      width: 60%;
+    }
+
+  .right{
+      background-color: Blue;
+      padding: 20px;
+
+      width: 20%;
+      float: left;
+    }
+
+    @media (max-width: 800px) {
+      .left,.main,.right{
+        width: 100%;
+      }
+    }
+  </style>
+  </head>
+  <body>
+    <div class="left">
+      <p>Left<br><br><br></p>
+    </div>
+
+    <div class="main">
+      <p>Main Content<br><br></p>
+    </div>
+
+    <div class="Right">
+      <p>Right<br><br><br></p>
+    </div>
+  </body>
+</html>

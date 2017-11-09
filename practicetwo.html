@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Table Practice</title>
+    <style>
+        table,th,td{
+            border: 1px solid black;
+            border-collapse: collapse;
+        }
+        th{
+            text-align: left;
+        }
+        th,td{
+            padding: 5px;
+        }
+        #table01 th{
+
+            background-color: darkgray;
+            color: aliceblue;
+        }
+
+        #table01 tr:nth-child(odd){
+          background-color: aqua;
+        }
+        #table01 tr:nth-child(even){
+            background-color: thistle;
+        }
+    </style>
+</head>
+<body>
+<table width="100%" id="table01">
+    <tr>
+        <th>Name</th>
+        <th>Age</th>
+        <th>Dept</th>
+    </tr>
+    <tr>
+        <td>Sady</td>
+        <td>21</td>
+        <td>CSE</td>
+    </tr>
+    <tr>
+        <td>Abrar</td>
+        <td>21</td>
+        <td>CSE</td>
+    </tr>
+    <tr>
+        <td>Taran</td>
+        <td>21</td>
+        <td>CSE</td>
+    </tr>
+    <tr>
+        <td>Sourav</td>
+        <td>21</td>
+        <td>CSE</td>
+    </tr>
+</table>
+
+<table width="50%">
+    <caption>Name Table</caption>
+   <tr>
+       <th>Name</th>
+       <th>Age</th>
+   </tr>
+    <tr>
+        <td rowspan="2">Sady</td>
+        <td>21</td>
+    </tr>
+    <tr>
+        <td>Abrar</td>
+
+    </tr>
+    <tr>
+        <td>taran</td>
+        <td>22</td>
+    </tr>
+</table>
+
+<table>
+    <caption>Table3</caption>
+    <tr>
+        <th colspan="2">Name</th>
+        <th>Age</th>
+    </tr>
+    <tr>
+        <td >
+            sady
+        </td>
+        <td>abrar</td>
+        <td>22</td>
+    </tr>
+</table>
+</body>
+</html>

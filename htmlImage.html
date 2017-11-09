@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>HTML Image</title>
+</head>
+<body background="video1.png">
+
+<h1>The alt Attribute</h1>
+<img src="html5.gif" alt="Html Image" width="50px" height="50px">
+
+<h1>Image size using style attribut</h1>
+<img src="html5.gif" style="width: 50px; height: 50px ;">
+
+<h1>Image on Another Server</h1>
+<img src="https://www.w3schools.com/images/w3schools_green.jpg" style="width: 50px; height: 50px;" alt="W3School">
+
+<h1>Add animitated image</h1>
+<img src="programming.gif" alt="Image" style="width: 75px; height: 75px;">
+
+<h1>Image as a Link</h1>
+<a href="htmlStyls.html">
+    <img src="html5.gif" style="width: 50px; height: 50px">
+</a>
+
+<h1>Image on left</h1>
+<p>
+    <img src="html5.gif" alt="image" style="float: left;width: 50px; height: 50px">Hello Guys.I Am fine
+</p>
+
+<h1>Image Map</h1>
+<img src="html5.gif" usemap="#pic1" alt="Iamge" style="width: 50px;height: 50px">
+<map name="pic1">
+    <area shape="rect" coords="0,0,50,50" href="externalCss.html">
+
+</map>
+
+<h1>The picture tag</h1>
+<picture>
+    <source media="(min-width: 650px)" srcset="programming.gif">
+    <img src="html5.gif" style="width: auto">
+</picture>
+</body>
+</html>
